@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405693794672",
+    "project_id": "flufire-864c8",
+    "storage_bucket": "flufire-864c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405693794672:android:3b484de902a10be56067b5",
+        "android_client_info": {
+          "package_name": "com.example.firebase_storage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwIXDOpGzJvNVLo5Obhllxi1EMNpBnD-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
