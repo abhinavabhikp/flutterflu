@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterflu/store.dart';
 import 'package:lottie/lottie.dart';
 void main (){
   runApp(MaterialApp(home: Qsplash(),debugShowCheckedModeBanner: false,));
@@ -19,7 +18,7 @@ class _QsplashState extends State<Qsplash> {
     Timer(Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => HomePage()),
+        MaterialPageRoute(builder: (context) => Qsplash()),
       );
     });
   }
@@ -27,8 +26,9 @@ class _QsplashState extends State<Qsplash> {
   Widget build(BuildContext context) {
 
     return Scaffold(
+      appBar: AppBar(title: Center(child: Text("Quizz")),),
       body: Center(
-        child: Lottie.asset("asset/animation/Animation.json"),
+        child: Lottie.asset("assets/animation/Animation.json"),
       ),
 
     );

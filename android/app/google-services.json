@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "215696783789",
+    "project_id": "flutterquiz-9cd3b",
+    "storage_bucket": "flutterquiz-9cd3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:215696783789:android:31fb6df695883443bfc924",
+        "android_client_info": {
+          "package_name": "com.example.flutterflu"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpRsOSzyF8G3gOlxZFPZN9SUEglIo6K1g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
